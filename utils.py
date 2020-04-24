@@ -13,7 +13,6 @@ import pymysql
 import os
 import re
 
-# 123.57.162.220
 class Database(object):
     # https://blog.csdn.net/zhihua_w/article/details/54313258
     def __init__(self, logger):
