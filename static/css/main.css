@@ -4,10 +4,10 @@
 [ FONT ]*/
 
 
-@font-face {
+/* @font-face {
   font-family: OpenSans-Regular;
   src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
-}
+} */
 
 
 
@@ -168,7 +168,7 @@ table td.r, table th.r {
 
 
 .table100-head th{
-  font-family: OpenSans-Regular;
+  /* font-family: OpenSans-Regular; */
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
@@ -180,7 +180,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr {
-  font-family: OpenSans-Regular;
+  /* font-family: OpenSans-Regular; */
   font-size: 15px;
   color: #808080;
   line-height: 1.2;
@@ -246,7 +246,7 @@ tbody tr:hover {
     margin-bottom: 0;
   }
   table tbody tr td:before {
-    font-family: OpenSans-Regular;
+    /* font-family: OpenSans-Regular; */
     font-size: 14px;
     color: #999999;
     line-height: 1.2;

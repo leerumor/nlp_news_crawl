@@ -22,8 +22,8 @@ import glob
 
 log = logging.getLogger()
 log.root.setLevel(logging.INFO)
-sh = logging.StreamHandler()
-log.addHandler(sh)
+# sh = logging.StreamHandler()
+# log.addHandler(sh)
 
 template_folder="/root/crawl/templates"
 
