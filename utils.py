@@ -13,12 +13,11 @@ import pymysql
 import os
 import re
 
-# 123.57.162.220
 class Database(object):
     # https://blog.csdn.net/zhihua_w/article/details/54313258
     def __init__(self, logger):
         # 打开数据库连接（ip/数据库用户名/登录密码/数据库名）
-        self.db = pymysql.connect("localhost", "root", "VGlw7HtMcQhM", "zhihu_crawl")
+        self.db = pymysql.connect("localhost", "root", "0000000", "00000")
         # 使用 cursor() 方法创建一个游标对象 cursor
         self.cursor = self.db.cursor()
         self.logger = logger
